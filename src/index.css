@@ -1,0 +1,24 @@
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: darkgrey;
+}
+
+#root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64' height='32'%3E%3Cdefs%3E%3Cpattern id='b' width='2' height='2' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%23404040' stroke-width='.33'%3E%3Cpath fill='%23444' d='M0 0h1v1H0z'/%3E%3Cpath fill='%23404040' d='M1 1h1v1H1z'/%3E%3Cpath fill='%23484848' d='M0 1h1v1H0z'/%3E%3Cpath fill='%234b4b4b' d='M1 0h1v1H1z'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='5' height='11' patternUnits='userSpaceOnUse'%3E%3Cg fill='%234f4f4f'%3E%3Cuse xlink:href='%23a' x='2'/%3E%3Cuse xlink:href='%23a' x='4' y='1'/%3E%3Cuse xlink:href='%23a' x='1' y='2'/%3E%3Cuse xlink:href='%23a' x='2' y='4'/%3E%3Cuse xlink:href='%23a' x='4' y='6'/%3E%3Cuse xlink:href='%23a' y='8'/%3E%3Cuse xlink:href='%23a' x='3' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='7' height='7' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23535353'%3E%3Cuse xlink:href='%23a' x='1' y='1'/%3E%3Cuse xlink:href='%23a' x='3' y='4'/%3E%3Cuse xlink:href='%23a' x='5' y='6'/%3E%3Cuse xlink:href='%23a' y='3'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='11' height='5' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23404040'%3E%3Cuse xlink:href='%23a' x='1' y='1'/%3E%3Cuse xlink:href='%23a' x='6' y='3'/%3E%3Cuse xlink:href='%23a' x='8' y='2'/%3E%3Cuse xlink:href='%23a' x='3'/%3E%3Cuse xlink:href='%23a' y='3'/%3E%3C/g%3E%3Cg fill='%23575757'%3E%3Cuse xlink:href='%23a' x='8' y='3'/%3E%3Cuse xlink:href='%23a' x='4' y='2'/%3E%3Cuse xlink:href='%23a' x='5' y='4'/%3E%3Cuse xlink:href='%23a' x='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='47' height='23' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23f50'%3E%3Cuse xlink:href='%23a' x='2' y='5'/%3E%3Cuse xlink:href='%23a' x='23' y='13'/%3E%3Cuse xlink:href='%23a' x='4' y='18'/%3E%3Cuse xlink:href='%23a' x='35' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='61' height='31' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23f50'%3E%3Cuse xlink:href='%23a' x='16'/%3E%3Cuse xlink:href='%23a' x='13' y='22'/%3E%3Cuse xlink:href='%23a' x='44' y='15'/%3E%3Cuse xlink:href='%23a' x='12' y='11'/%3E%3C/g%3E%3C/pattern%3E%3Cpath stroke='%23404040' stroke-width='.33' id='a' d='M0 0h1v1H0z'/%3E%3C/defs%3E%3Cpath fill='url(%23b)' d='M0 0h64v32H0z'/%3E%3Cpath fill='url(%23c)' d='M0 0h64v32H0z'/%3E%3Cpath fill='url(%23d)' d='M0 0h64v32H0z'/%3E%3Cpath fill='url(%23e)' d='M0 0h64v32H0z'/%3E%3Cpath fill='url(%23f)' d='M0 0h64v32H0z'/%3E%3Cpath fill='url(%23g)' d='M0 0h64v32H0z'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
